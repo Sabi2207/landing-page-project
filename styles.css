@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+}
