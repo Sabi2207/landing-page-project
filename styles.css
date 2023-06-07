@@ -26,7 +26,6 @@ ul {
     display: flex;
     flex-direction: column;
     padding-right: 24px;
-  
 }
 
 .top {
@@ -73,4 +72,28 @@ button {
     margin-top: 8px;
 }
 
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
 
+.boxes { 
+    display: flex;
+}
+
+.box {
+    border: solid;
+    border-color: #3882F6;
+    height: 100px;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.part2 {}
