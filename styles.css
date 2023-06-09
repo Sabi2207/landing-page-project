@@ -30,7 +30,7 @@ ul {
 
 .top {
     background-color: #1F2937;
-    padding: 4px 42px 48px 96px;
+    padding: 4px 96px 48px 96px;
 }
 
 h1 {
@@ -80,13 +80,17 @@ button {
 
 .boxes { 
     display: flex;
+    gap: 36px;
 }
 
 .box {
     border: solid;
+    border-width: medium;
     border-color: #3882F6;
-    height: 100px;
+    height: 0;
     width: 100%;
+    padding-top: 100%;
+    border-radius: 10%;
 }
 
 .information {
@@ -96,4 +100,6 @@ button {
     text-align: center;
 }
 
-.part2 {}
+.part2 {
+    margin: 40px 140px 60px 140px;
+}
