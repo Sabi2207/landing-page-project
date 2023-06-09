@@ -103,3 +103,33 @@ button {
 .part2 {
     margin: 40px 140px 60px 140px;
 }
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 140px 50px 140px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    padding: 24px 40px 24px 40px;
+    margin: 50px 96px 50px 96px;
+}
+
+.cta-text {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+}
