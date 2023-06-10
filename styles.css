@@ -14,6 +14,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 96px;
+    margin: 0px;
 }
 
 .hero {
@@ -30,7 +31,7 @@ ul {
 
 .top {
     background-color: #1F2937;
-    padding: 4px 96px 48px 96px;
+    padding: 4px 200px 48px 200px;
 }
 
 h1 {
@@ -62,12 +63,12 @@ h1 {
     height: 100px;
 }
 
-button {
+.button-top {
     background-color: #3882F6;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     width: max-content;
-    padding: 8px 24px 8px 24px;
+    padding: 8px 32px 8px 32px;
     color: #E5E7EB;
     margin-top: 8px;
 }
@@ -80,12 +81,12 @@ button {
 
 .boxes { 
     display: flex;
-    gap: 36px;
+    gap: 60px;
 }
 
 .box {
     border: solid;
-    border-width: medium;
+    border-width: 4px;
     border-color: #3882F6;
     height: 0;
     width: 100%;
@@ -98,38 +99,73 @@ button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: grey;
 }
 
 .part2 {
-    margin: 40px 140px 60px 140px;
+    margin: 40px 300px 60px 300px;
 }
 
 .testimonial {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 60px 140px 50px 140px;
+    padding: 60px 320px 50px 320px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: light;
+    font-style: italic;
+    margin-bottom: 0px;
 }
 
 .thor {
     font-weight: bold;
     align-self: flex-end;
+    margin-top: 0px;
 }
 
 .cta {
     background-color: #3882F6;
     display: flex;
-    padding: 24px 40px 24px 40px;
-    margin: 50px 96px 50px 96px;
+    justify-content: space-between;
+    padding: 52px 100px 52px 100px;
+    margin: 80px 200px 80px 200px;
+    border-radius: 8px;
 }
 
 .cta-text {
     display: flex;   
     flex-direction: column;
-    justify-content: center;
+    color: white;
+}
+
+.button-bottom {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: max-content;
+    padding: 8px 32px 8px 32px;
+    color: #E5E7EB;
+    margin-top: 8px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.cta-long-text {
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 24px 0px 24px 0px;
 }
